@@ -33,6 +33,7 @@ jobs:
       uses: azure/appservice-build@v1
       with:
         platform: python
+      continue-on-error: true
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
