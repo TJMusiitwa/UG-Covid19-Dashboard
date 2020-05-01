@@ -1,5 +1,6 @@
 # UG-Covid19 Dashboard
 ![Python Version](https://img.shields.io/badge/python-v3.7-blue)
+![Build, deploy se](https://github.com/TJMusiitwa/UG-Covid19-Dashboard/workflows/Build%20and%20deploy%20Python%20app%20to%20Azure%20Web%20App%20-%20uganda-covid-19-dashboard/badge.svg)
 
 ## 1️⃣ Description
 
