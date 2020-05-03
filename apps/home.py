@@ -61,22 +61,27 @@ home_layout = html.Div([
     }),
     html.Br(),
     # Statitic Cards
-    html.Div(dbc.Container(dbc.Row([
-        dbc.Col(),
-        dbc.Col(),
-        dbc.Col(),
-        dbc.Col(),
+    html.Div(
+        dbc.Container(
+            dbc.Row(
+                [
+                    dbc.Col(html.Div("One of three columns")),
+                    dbc.Col(html.Div("One of three columns")),
+                    dbc.Col(html.Div("One of three columns")),
+                    dbc.Col(html.Div("One of three columns")),
 
-    ]),
-    ),
+                ]),
+        ),
     ),
     # Main Page Content
     html.Div(
         dbc.Container(
             dbc.Row(
-                dbc.Col(),
-                dbc.Col(),
-                dbc.Col(),
+                [
+                    dbc.Col(html.Div("One of three columns"), width=3),
+                    dbc.Col(html.Div("One of three columns")),
+                    dbc.Col(html.Div("One of three columns"), width=3),
+                ]
             ))
     ),
     # Graph Timeline
