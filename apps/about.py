@@ -1,15 +1,17 @@
+import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
-import dash_bootstrap_components as dbc
+
 from navbar import Navbar
 
 nav = Navbar()
 
 about_layout = html.Div([
     nav,
-    dbc.Container(
-        dbc.Row(
-            dcc.Markdown('''
+    html.Div(
+        dbc.Container(
+            dbc.Row(
+                dcc.Markdown('''
 # Uganda Covid-19 Dashboard
 ### Foreword
 Hello and welcome, this is my second dashboard so far and I am borrowing implementations from my first dashboard to help speed things along which you can check out [here](https://african-covid19-dashboard.herokuapp.com/). The prime focus of this dashboard is as stated in the title to mainly visualize an overview of the 2019 Novel Coronavirus COVID-19 (2019-nCoV) epidemic as it relates to the Ugandan context.
@@ -30,8 +32,10 @@ I would not have been able to create my this dashboard without some inspiration 
 ### Contact
 If you wish to contact me, I am available at this [email](mailto:jonamusiitwa@outlook.com)          
             '''),
-            justify="center",
-        ),
+                justify="center",
+            ),
 
+        )
     )
+
 ])
