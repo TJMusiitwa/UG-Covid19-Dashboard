@@ -35,7 +35,7 @@ jobs:
         pip install -r requirements.txt
         
     - name: Run file to fetch data and save to csv file
-      run: python eda.py
+      run: python eda_files/eda.py
       continue-on-error: true
     
     - name: Commit files

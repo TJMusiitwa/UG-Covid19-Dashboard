@@ -8,7 +8,7 @@ def Navbar():
 
             dbc.NavItem(dbc.NavLink('About', href='/apps/about')),
         ],
-        className='navbar navbar-expand-lg navbar-dark bg-primary',
+        className='navbar navbar-expand-lg navbar-dark bg-dark',
         brand='Uganda Covid-19 Dashboard',
         brand_href="/home",
         dark=True,

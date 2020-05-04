@@ -8,7 +8,7 @@ from apps import about, home
 
 dash_stylesheets = [
     dbc.themes.GRID,
-    dbc.themes.DARKLY,
+    dbc.themes.CYBORG,
 ]
 
 app = dash.Dash(__name__, external_stylesheets=dash_stylesheets, meta_tags=[

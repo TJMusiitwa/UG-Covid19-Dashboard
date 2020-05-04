@@ -1,5 +1,6 @@
 # UG-Covid19 Dashboard
 ![Python Version](https://img.shields.io/badge/python-v3.7-blue)
+[![Heroku App Status](http://heroku-shields.herokuapp.com/ug-covid19-dashboard)](https://ug-covid19-dashboard.herokuapp.com/)
 
 ## 1️⃣ Description
 
