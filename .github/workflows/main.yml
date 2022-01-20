@@ -3,6 +3,7 @@ name: Uganda Data ScheduledFetch
 on: 
   schedule:
     - cron: "30 2 * * SUN-SAT"
+  workflow_dispatch:  
 
 jobs:
   build:
